@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>MegaStorage | Servicios de Alojamiento Web</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="icon" type="/image/ico" href="/images/BAF-favicon.ico" />
+    <!-- Add custom CSS here -->
+    <link href="css/megastorage.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body ng-app="megaStorageApp">
+    
+    <!-- Our Website Content Goes Here -->
+    <div ng-include='"templates/header.html"'></div>
+    <div ng-view></div>
+    <div ng-include='"templates/footer.html"'></div>
+
+    <script src="js/jquery-1.10.2.js"></script> 
+    <script src="js/bootstrap.min.js"></script> 
+
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular-route.min.js">
+    </script>
+
+    <!-- Website Javascripts -->
+    <script src="js/main.js"></script>
+
+</body>
+</html>
